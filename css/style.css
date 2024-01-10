@@ -619,4 +619,7 @@ Media for phone
     position: absolute;
     left: 1rem;
    }
+   .date{
+    margin-left: 3rem;
+   }
 }
