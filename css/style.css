@@ -492,11 +492,19 @@ Modal
 }
 .modal h1{
     margin: 0;
+    margin-bottom: 1rem;
 }
 .modal p{
     font-size: 14px;
     opacity: 0.7; 
+    margin-bottom: 1rem;
 }
+.modal button{
+    padding: 0.5rem 2rem;
+    border-radius: var(--border-radius-1);
+    background-color: var(--clr-prrimary);
+    color: var(--clr-white);
+} 
 
 /**************************
 Media Query
@@ -584,7 +592,7 @@ Media for phone
     padding: 40px;
    }
    main .recent_order{
-    padding: px;
+    padding: 40px;
     margin: 0 auto;
    }
    .right .profile{
