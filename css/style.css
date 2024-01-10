@@ -170,7 +170,7 @@ aside .sidebar a.active{
 }
 aside .sidebar a.active::before{
     content: '';
-    width: 6px;
+    width: 5px;
     height: 100%;
     background-color: var(--clr-prrimary);
 }
@@ -493,7 +493,8 @@ Media for phone
     background-color: var(--clr-white);
     display: none;
     left: -100px;
-    animation: menuAni 1s forwards;
+    box-shadow: var(--box-shadow);
+    animation: menuAni .3s forwards;
    } 
    @keyframes menuAni {
     to{
