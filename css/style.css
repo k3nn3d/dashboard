@@ -600,13 +600,14 @@ Media for phone
     left: 70%;
    }
    .right .recent_updates{
-    padding: 30px;
+    padding: 40px;
+    margin: 0 auto;
    }
    .right .sales_analytics{
     padding: 30px;
    }
 
-   .add_product{
+   .right .add_product_container{
     padding: 30px;
    }
 
@@ -617,5 +618,8 @@ Media for phone
     color: var(--clr-dark);
     position: absolute;
     left: 1rem;
+   }
+   .date{
+    margin-left: 3rem;
    }
 }
