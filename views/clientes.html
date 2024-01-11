@@ -86,16 +86,21 @@
         <main>
           <h1>Clientes</h1> 
           <!--start recent orders-->
-          <div class="recent_order">
-            <h1>Clientes</h1>
+          <div class="table_container">
+
+            <div class="title_table">
+                <h1>Clientes</h1>
+                <a class="add_button openModal" id="open" data-target="#modal-container_1"><span class="material-symbols-outlined">add</span>Adicionar Cliente</a>
+            </div>
 
             <table>
 
                 <thead>
 
                     <tr>
-                        <th>Nome do Producto</th>
-                        <th>Numero do Producto</th>
+                        <th>#</th>
+                        <th>Nome</th>
+                        <th>Numero</th>
                         <th>Pagamento</th>
                         <th>Estado</th>
                     </tr>
@@ -105,40 +110,43 @@
                 <tbody>
 
                     <tr>
-                        <td>Mini USB</td>
-                        <td>433</td>
+                        <td><div class="table_photo"> <img src="../images/kennedy_fato.jpeg" alt=""></div></td>
+                        <td>Dario Goncalo</td>
+                        <td>945886657</td>
                         <td>Due</td>
-                        <td class="warning">Pendente</td>
-                        <td class="primary"><a href="#" id="open" data-target="#modal-container_1" class="openModal" >Detalhes</a></td>
+                        <td><span class="warning">Pendente</span></td>
+                        <td><a href="#"><span class="primary">Detalhes</span></a></td>
                     </tr>
 
                     <tr>
-                        <td>Mini USB</td>
-                        <td>433</td>
+                        <td><div class="table_photo"> <img src="../images/kennedy_fato.jpeg" alt=""></div></td>
+                        <td>Pedro Kenzo</td>
+                        <td>903009433</td>
                         <td>Due</td>
-                        <td class="warning">Pendente</td>
-                        <td class="primary">Detalhes</td>
+                        <td><span class="success">Validado</span></td>
+                        <td><span class="primary">Detalhes</span></td>
                     </tr>
 
                     <tr>
-                        <td>Mini USB</td>
-                        <td>433</td>
+                        <td><div class="table_photo"> <img src="../images/kennedy_fato.jpeg" alt=""></div></td>
+                        <td>Osvaldo Goncalves</td>
+                        <td>94330097</td>
                         <td>Due</td>
-                        <td class="warning">Pendente</td>
-                        <td class="primary">Detalhes</td>
+                        <td><span class="warning">Pendente</span></td>
+                        <td><span class="primary">Detalhes</span></td>
                     </tr>
 
                 </tbody>
             </table>
           </div>
-          
+
           <!--Modal start-->
           <div class="modal-container" id="modal-container_1">
             <div class="modal">
-                <h1>Hello World</h1>
+                <h1>Adicionar Cliente</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor consequatur odit assumenda sapiente numquam, vol
                     uptate debitis dicta vel, quae sunt ipsam officia accusamus libero voluptas nesciunt corporis id architecto unde.</p>
-                <button id="close" class="closeModal" data-target ="#modal-container_1">Close</button>
+                <button id="close" class="closeModal" data-target ="#modal-container_1">Fechar</button>
             </div>
           </div>
           <!--Modal end-->
