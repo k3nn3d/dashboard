@@ -141,9 +141,7 @@ b{
     justify-content: center;
     align-items: center;
 }
-.form_body{
 
-}
 .input_form_control{
     background-color: var(--clr-light);
     padding: 10px;
