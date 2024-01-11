@@ -84,7 +84,7 @@
 
         <!--main section start-->
         <main>
-          <h1>Clientes</h1> 
+          <h1><span class="text-muted">Dashboard</span>/Clientes</h1> 
           <!--start recent orders-->
           <div class="table_container">
 
@@ -144,8 +144,21 @@
           <div class="modal-container" id="modal-container_1">
             <div class="modal">
                 <h1>Adicionar Cliente</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor consequatur odit assumenda sapiente numquam, vol
-                    uptate debitis dicta vel, quae sunt ipsam officia accusamus libero voluptas nesciunt corporis id architecto unde.</p>
+              
+                <div class="form_container">
+                    <form action="" class="form_body">
+                        <div class="form_elements_container">
+                            <input type="text" class="input_form_control">
+                            <input type="text" class="input_form_control">
+                            <input type="text" class="input_form_control">
+                            <input type="text" class="input_form_control">
+                        </div>
+                        <div class="form_buttons">
+                            <a href="" class="form_button success-background">Enviar</a>
+                        </div>
+                    </form>
+                </div>
+                
                 <button id="close" class="closeModal" data-target ="#modal-container_1">Fechar</button>
             </div>
           </div>
@@ -194,5 +207,17 @@
 
     </div>
     <script src="../js/script.js" ></script>
+
+    <!--MODAL ORIGINAL
+         <div class="modal-container" id="modal-container_1">
+            <div class="modal">
+                <h1>Hello World</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor consequatur odit assumenda sapiente numquam, vol
+                    uptate debitis dicta vel, quae sunt ipsam officia accusamus libero voluptas nesciunt corporis id architecto unde.
+                </p>
+                <button id="close" class="closeModal" data-target ="#modal-container_1">Fechar</button>
+            </div>
+        </div> 
+    -->
 </body>
 </html>
